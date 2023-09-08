@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * main -it prints out output using put
+ * main - Entry point
  *
- * return :always (o)
+ * Description: This is the entry point of the program.
  *
+ * Return: 0 (Success)
  */
 int main(void)
 {

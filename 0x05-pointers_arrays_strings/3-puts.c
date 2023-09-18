@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * puts - prints a string, followed by a new line, to stout
  * @str: string to print

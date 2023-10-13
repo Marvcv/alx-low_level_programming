@@ -9,11 +9,11 @@
  *
  * Return: no return.
  */
-void array_function(int *matrix, size_t sizes, void (*action)(int))
+void array_function(int *array, size_t size, void (*action)(int))
 {
 	unsigned int j;
 
-	if (matrix && action)
+	if (array && action)
 		for (j = 0; j < size; j++)
-			action(matrix[j]);
+			action(array[j]);
 }

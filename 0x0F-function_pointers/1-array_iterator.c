@@ -3,8 +3,8 @@
 /**
  * array_function - iterates a function given as a
  * parameter on each element of an array.
- * @matrix: input integer array.
- * @sizes: size of the array.
+ * @array: input integer array.
+ * @size: size of the array.
  * @action: pointer to the function.
  *
  * Return: no return.

@@ -1,20 +1,22 @@
-#include "dog.h"
+#include "lists.h"
 
 /**
- * init_dog - initializes a variable of type struct dog.
- * @d: struct dog.
- * @name: name of the dog.
- * @age: age of the dog.
- * @owner: owner of the dog.
+ * listint_len - Returns the number of elements in a linked list.
+ * @h: Head of the linked list.
  *
- * Return: no return.
+ * Description: This function counts the number of nodes in a linked list.
+ *
+ * Return: The number of nodes in the linked list.
  */
-void init_dog(struct dog *d, char *name, float age, char *owner)
+size_t listint_len(const listint_t *h)
 {
-	if (d)
+	size_t nnodes = 0;
+
+	while (h != NULL)
 	{
-		d->name = name;
-		d->age = age;
-		d->owner = owner;
+		h = h->next;
+		nnodes++;
 	}
+
+	return (nnodes);
 }

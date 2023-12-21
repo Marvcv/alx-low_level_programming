@@ -152,7 +152,7 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 
 /**
  * shash_table_print - it Prints a sorted hash table in order.
- * @ht: ts A pointer to the sorted hash table.
+ * @ht: its A pointer to the sorted hash table.
  */
 void shash_table_print(const shash_table_t *ht)
 {
@@ -174,7 +174,7 @@ void shash_table_print(const shash_table_t *ht)
 }
 
 /**
- * shash_table_print_rev - itPrints a sorted hash table in reverse order.
+ * shash_table_print_rev - it Prints a sorted hash table in reverse order.
  * @ht: its A pointer to the sorted hash table to print.
  */
 void shash_table_print_rev(const shash_table_t *ht)
@@ -197,7 +197,7 @@ void shash_table_print_rev(const shash_table_t *ht)
 }
 
 /**
- * shash_table_delete - this Deletes a sorted hash table.
+ * shash_table_delete - it Deletes a sorted hash table.
  * @ht: its A pointer to the sorted hash table.
  */
 void shash_table_delete(shash_table_t *ht)
